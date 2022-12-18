@@ -21,6 +21,10 @@ jobs:
 
       - run: npm run build
 
+        env: 
+          TURBO_TOKEN: WSuy4O8OqMAEYBKdWmEuajZW
+          TURBO_TEAM: All non-SAML Teams
+
       - name: Deploy storybook
         working-directory: ./packages/docs
         run: npm run deploy-storybook -- --ci --existing-output-dir=storybook-static

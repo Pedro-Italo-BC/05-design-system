@@ -1,5 +1,5 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@pi-ignite-ui/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,7 +15,7 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.20.5",
-    "@ignite-ui/ts-config": "*",
+    "@pi-ignite-ui/ts-config": "*",
     "@storybook/addon-actions": "^6.5.14",
     "@storybook/addon-essentials": "^6.5.14",
     "@storybook/addon-interactions": "^6.5.14",
@@ -29,9 +29,9 @@
     "vite": "^4.0.0"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
+    "@pi-ignite-ui/eslint-config": "*",
+    "@pi-ignite-ui/react": "*",
+    "@pi-ignite-ui/tokens": "*",
     "@storybook/addon-a11y": "^6.5.14",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",
