@@ -25,7 +25,7 @@ jobs:
 
         env: 
           TURBO_TOKEN: WSuy4O8OqMAEYBKdWmEuajZW
-          TURBO_TEAM: All non-SAML Teams
+          TURBO_TEAM: pedro-italo-bc
 
       - name: Deploy storybook
         working-directory: ./packages/docs
